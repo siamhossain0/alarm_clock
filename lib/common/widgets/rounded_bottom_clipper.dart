@@ -4,7 +4,7 @@ class RoundedBottomClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     final path = Path();
-    final cornerRadius = 30.0;
+    final cornerRadius = 50.0;
 
     // Start from top-left
     path.moveTo(0, 0);
